@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "productName": "fresh mango",
+    "image": "🥭",
+    "from": "India",
+    "nutrients": "Vitamin C, Vitamin A, Fiber",
+    "quantity": "4pcs",
+    "price": "80",
+    "organic": true,
+    "description": "Fresh mangoes are a tropical fruit that are known for their sweet and juicy flavor. They are rich in vitamins, minerals, and antioxidants, making them a healthy addition to your diet."
+  },
+  {
+    "id": 1,
+    "productName": "organic spinach",
+    "image": "🥬",
+    "from": "USA",
+    "nutrients": "Vitamin K, Vitamin A, Iron",
+    "quantity": "200g",
+    "price": "120",
+    "organic": true,
+    "description": "Organic spinach is a nutrient-dense leafy green vegetable that is rich in vitamins and minerals. It is a great source of antioxidants and is known for its health benefits."
+  },
+  {
+    "id": 2,
+    "productName": "fresh strawberries",
+    "image": "🍓",
+    "from": "Spain",
+    "nutrients": "Vitamin C, Fiber, Antioxidants",
+    "quantity": "500g",
+    "price": "150",
+    "organic": true,
+    "description": "Fresh strawberries are a delicious and nutritious fruit that are packed with vitamins, minerals, and antioxidants. They are low in calories and high in fiber, making them a great addition to your diet."
+  },
+  {
+    "id": 3,
+    "productName": "organic carrots",
+    "image": "🥕",
+    "from": "Canada",
+    "nutrients": "Vitamin A, Fiber, Potassium",
+    "quantity": "1kg",
+    "price": "90",
+    "organic": true,
+    "description": "Organic carrots are a root vegetable that are rich in vitamins and minerals. They are a great source of antioxidants and are known for their health benefits."
+  },
+  {
+    "id": 4,
+    "productName": "fresh blueberries",
+    "image": "🫐",
+    "from": "USA",
+    "nutrients": "Vitamin C, Fiber, Antioxidants",
+    "quantity": "250g",
+    "price": "200",
+    "organic": true,
+    "description": "Fresh blueberries are a delicious and nutritious fruit that are packed with vitamins, minerals, and antioxidants. They are low in calories and high in fiber, making them a great addition to your diet."
+  },
+  {
+    "id": 5,
+    "productName": "organic kale",
+    "image": "🥬",
+    "from": "USA",
+    "nutrients": "Vitamin K, Vitamin A, Vitamin C",
+    "quantity": "300g",
+    "price": "130",
+    "organic": true,
+    "description": "Organic kale is a nutrient-dense leafy green vegetable that is rich in vitamins and minerals. It is a great source of antioxidants and is known for its health benefits."
+  },
+  {
+    "id": 6,
+    "productName": "fresh pineapple",
+    "image": "🍍",
+    "from": "Costa Rica",
+    "nutrients": "Vitamin C, Manganese, Fiber",
+    "quantity": "1pcs",
+    "price": "100",
+    "organic": true,
+    "description": "Fresh pineapples are a tropical fruit that are known for their sweet and tangy flavor. They are rich in vitamins, minerals, and antioxidants, making them a healthy addition to your diet."
+  }
+]
