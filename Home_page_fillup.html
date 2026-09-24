@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card skeleton</title>
+     <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <figure class="card">
+        <div class="card_emoji">{%image%}{%image%}</div>
+        <div class="card_title-box">
+            <h2 card_title>{%productName%}</h2>
+        </div>
+
+        <div class="card_details">
+            <div class="card_details-box">
+                <h6 class="card_details">{%quantity%} per 📦</h6>
+            </div>
+
+            <div class="card_details-box">
+                <h6 class="card_details card_detail-price">₹{%price%}</h6>
+            </div>
+        </div>
+
+        <a href="/product?id={%id%}" class="card_link">
+            <span>detail<i class="emoji-right"></i></span>
+        </a>
+    </figure>
+</body>
+</html>
