@@ -3,7 +3,7 @@ import path from "path";
 import url from "url";
 import { error } from "console";
 import express from "express";
-  let count = 0;
+ 
 
 
 const app = express();
@@ -57,7 +57,7 @@ app.get("/", (req, res) => {
   const output = product_genrate.replace("{%product_card%}", cardHtml);
   res.end(output);
 
-  console.log("all is well", ++count);
+  
 
  
   
