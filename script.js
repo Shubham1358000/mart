@@ -31,7 +31,7 @@ function renderHome(products) {
               <strong>₹${product.price}</strong>
             </div>
           </div>
-          <a class="card-link" href="product.html?id=${product.id}">Detail →</a>
+          <a class="card-link" href="product.html?id=${product.id}">Detail 👉</a>
         </article>
       `
     )
