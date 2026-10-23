@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.js",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "scripts": {
     "start": "node index.js",
@@ -16,6 +16,7 @@
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "uuid": "^13.0.2"
