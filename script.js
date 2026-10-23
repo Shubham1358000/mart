@@ -14,7 +14,6 @@ async function getProductById(id) {
   return response.json();
 }
 
-
 function renderHome(products) {
   if (!productGrid) return;
 
@@ -34,7 +33,7 @@ function renderHome(products) {
               <strong>₹${product.price}</strong>
             </div>
           </div>
-          <a class="card-link" href="product.html?id=${product.id}">Detail 👉</a>
+          <a class="card-link" href="/product?id=${product.id}">Detail 👉</a>
         </article>
       `
     )
@@ -46,6 +45,12 @@ function renderProduct(products) {
 
   const params = new URLSearchParams(window.location.search);
   const productId = Number(params.get("id"));
+
+  if (!productId && productId !== 0) {
+    productDetail.innerHTML = `<div class="empty-state">Product not found.</div>`;
+    return;
+  }
+
   const product = products.find((item) => item.id === productId);
 
   if (!product) {
@@ -53,13 +58,11 @@ function renderProduct(products) {
     return;
   }
 
-  const emojiList = Array.from({ length: 9 }, () => product.image).join(" ");
-
   productDetail.innerHTML = `
     <div class="product-shell">
       <div class="product-badges">
         <span class="badge ${product.organic ? "" : "hidden"}">Organic</span>
-        <a class="back-link" href="index.html">👈</a>
+        <a class="back-link" href="/">👈</a>
       </div>
 
       <div class="product-hero">
