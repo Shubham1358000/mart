@@ -56,7 +56,7 @@ function renderProduct(products) {
     <div class="product-shell">
       <div class="product-badges">
         <span class="badge ${product.organic ? "" : "hidden"}">Organic</span>
-        <a class="back-link" href="index.html">←</a>
+        <a class="back-link" href="index.html">👈</a>
       </div>
 
       <div class="product-hero">
