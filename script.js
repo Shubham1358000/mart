@@ -8,11 +8,6 @@ async function getProducts() {
   return response.json();
 }
 
-async function getProductById(id) {
-  const response = await fetch(`/api/products/${id}`);
-  if (!response.ok) throw new Error("Product not found");
-  return response.json();
-}
 
 function renderHome(products) {
   if (!productGrid) return;
