@@ -3,14 +3,17 @@ const productGrid = document.getElementById("product-grid");
 const productDetail = document.getElementById("product-detail");
 
 async function getProducts() {
-  const response = await fetch("data.json");
-
-  if (!response.ok) {
-    throw new Error("Failed to load product data");
-  }
-
+  const response = await fetch("/api/products");
+  if (!response.ok) throw new Error("Failed to load product data");
   return response.json();
 }
+
+async function getProductById(id) {
+  const response = await fetch(`/api/products/${id}`);
+  if (!response.ok) throw new Error("Product not found");
+  return response.json();
+}
+
 
 function renderHome(products) {
   if (!productGrid) return;
